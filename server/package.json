@@ -2,11 +2,10 @@
   "name": "server",
   "version": "0.0.1",
   "description": "The server-side component of the VueCommerce app.",
-  "main": "src/index.ts",
+  "main": "src/index.js",
   "scripts": {
-    "build": "tsc --build",
-    "start": "node dist/index.js",
-    "serve": "nodemon src/index.ts"
+    "start": "node src/index.js",
+    "serve": "nodemon src/index.js"
   },
   "author": "Brock M. Mowry",
   "license": "ISC",
@@ -21,14 +20,6 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "@types/bcrypt": "^5.0.2",
-    "@types/cors": "^2.8.17",
-    "@types/express": "^5.0.0",
-    "@types/jsonwebtoken": "^9.0.7",
-    "@types/morgan": "^1.9.9",
-    "@types/node": "^22.10.5",
-    "nodemon": "^3.1.9",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.7.2"
+    "nodemon": "^3.1.9"
   }
 }
