@@ -1,0 +1,12 @@
+$primary: #6c5ce7; // Soft pastel purple for primary
+$secondary: #b2bec3; // Light gray for secondary text
+$success: #81e28c; // Light pastel green for success
+$info: #74c0fc; // Soft pastel blue for info
+$warning: #ffe156; // Light pastel yellow for warning
+$danger: #ff6b6b; // Soft pastel red for danger
+$dark: #2d3436; // Dark gray for dark text
+
+@import "../../../../node_modules/bootstrap/scss/functions";
+@import "../../../../node_modules/bootstrap/scss/variables";
+@import "../../../../node_modules/bootstrap/scss/mixins";
+@import "../../../../node_modules/bootstrap/scss/bootstrap";
